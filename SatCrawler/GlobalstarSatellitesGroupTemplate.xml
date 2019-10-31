@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NgtsPlayerTemplateLibrary>
+    <Header>
+        <Classification>UNCLASSIFIED//FOR OFFICIAL USE ONLY</Classification>
+        <Source>Python Script</Source>
+        <Title>AllGlobalstarSatellites</Title>
+        <SourceVersion unit="NVersion">3.2.3.0.0.0</SourceVersion>
+    </Header>
+    <Contents>
+        <PlayerBuilderGroup GroupName="AllGlobalstarSatellites">
+            <Info>
+                <MenuCategories unit="std::vector&lt;std::string>">[1]{Space|Groups}</MenuCategories>
+                <MenuDisplayName unit="std::string">AllGlobalstarSatellites</MenuDisplayName>
+            </Info>
+            <PlayerInstance userName="GLOBALSTAR M095" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M095</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M095" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="1">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M095</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::1</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="2">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M078" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M078</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M078" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="3">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M078</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::2</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="4">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M096" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M096</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M096" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="5">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M096</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::3</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="6">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M094" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M094</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M094" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="7">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M094</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::4</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="8">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M093" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M093</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M093" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="9">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M093</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::5</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="10">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M097" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M097</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M097" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="11">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M097</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::6</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="12">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M086" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M086</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M086" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="13">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M086</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::7</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="14">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M090" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M090</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M090" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="15">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M090</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::8</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="16">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M092" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M092</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M092" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="17">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M092</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::9</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="18">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M082" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M082</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M082" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="19">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M082</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::10</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="20">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M080" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M080</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M080" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="21">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M080</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::11</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="22">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M084" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M084</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M084" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="23">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M084</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::12</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="24">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M089" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M089</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M089" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="25">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M089</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::13</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="26">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M081" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M081</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M081" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="27">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M081</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::14</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="28">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M085" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M085</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M085" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="29">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M085</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::15</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="30">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M091" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M091</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M091" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="31">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M091</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::16</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="32">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M088" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M088</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M088" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="33">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M088</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::17</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="34">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M083" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M083</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M083" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="35">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M083</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::18</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="36">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M073" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M073</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M073" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="37">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M073</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::19</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="38">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M075" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M075</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M075" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="39">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M075</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::20</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="40">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M077" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M077</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M077" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="41">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M077</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::21</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="42">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M076" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M076</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M076" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="43">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M076</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::22</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="44">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M074" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M074</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M074" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="45">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M074</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::23</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="46">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M079" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M079</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M079" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="47">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M079</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::24</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="48">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M068" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M068</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M068" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="49">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M068</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::25</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="50">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M066" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M066</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M066" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="51">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M066</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::26</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="52">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M070" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M070</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M070" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="53">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M070</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::27</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="54">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M067" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M067</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M067" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="55">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M067</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::28</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="56">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M071" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M071</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M071" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="57">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M071</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::29</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="58">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M072" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M072</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M072" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="59">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M072</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::30</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="60">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M069" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M069</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M069" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="61">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M069</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::31</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="62">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M065" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M065</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M065" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="63">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M065</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::32</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="64">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M064" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M064</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M064" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="65">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M064</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::33</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="66">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M060" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M060</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M060" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="67">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M060</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::34</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="68">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M062" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M062</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M062" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="69">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M062</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::35</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="70">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M063" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M063</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M063" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="71">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M063</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::36</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="72">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M061" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M061</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M061" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="73">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M061</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::37</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="74">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M029" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M029</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M029" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="75">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M029</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::38</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="76">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M034" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M034</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M034" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="77">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M034</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::39</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="78">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M039" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M039</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M039" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="79">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M039</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::40</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="80">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M031" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M031</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M031" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="81">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M031</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::41</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="82">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M056" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M056</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M056" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="83">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M056</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::42</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="84">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M059" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M059</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M059" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="85">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M059</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::43</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="86">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M057" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M057</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M057" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="87">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M057</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::44</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="88">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M055" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M055</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M055" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="89">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M055</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::45</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="90">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M033" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M033</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M033" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="91">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M033</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::46</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="92">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M050" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M050</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M050" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="93">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M050</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::47</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="94">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M058" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M058</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M058" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="95">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M058</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::48</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="96">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M053" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M053</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M053" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="97">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M053</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::49</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="98">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M054" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M054</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M054" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="99">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M054</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::50</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="100">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M027" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M027</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M027" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="101">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M027</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::51</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="102">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M024" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M024</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M024" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="103">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M024</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::52</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="104">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M028" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M028</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M028" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="105">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M028</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::53</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="106">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M043" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M043</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M043" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="107">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M043</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::54</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="108">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M026" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M026</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M026" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="109">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M026</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::55</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="110">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M048" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M048</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M048" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="111">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M048</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::56</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="112">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M030" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M030</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M030" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="113">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M030</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::57</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="114">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M051" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M051</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M051" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="115">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M051</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::58</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="116">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M032" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M032</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M032" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="117">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M032</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::59</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="118">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M035" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M035</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M035" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="119">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M035</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::60</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="120">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M052" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M052</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M052" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="121">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M052</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::61</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="122">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M047" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M047</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M047" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="123">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M047</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::62</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="124">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M049" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M049</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M049" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="125">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M049</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::63</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="126">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M025" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M025</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M025" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="127">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M025</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::64</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="128">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M042" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M042</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M042" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="129">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M042</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::65</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="130">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M044" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M044</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M044" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="131">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M044</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::66</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="132">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M019" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M019</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M019" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="133">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M019</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::67</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="134">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M045" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M045</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M045" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="135">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M045</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::68</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="136">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M037" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M037</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M037" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="137">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M037</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::69</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="138">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M046" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M046</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M046" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="139">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M046</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::70</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="140">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M041" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M041</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M041" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="141">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M041</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::71</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="142">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M022" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M022</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M022" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="143">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M022</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::72</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="144">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M038" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M038</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M038" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="145">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M038</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::73</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="146">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M036" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M036</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M036" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="147">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M036</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::74</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="148">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M040" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M040</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M040" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="149">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M040</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::75</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="150">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M023" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M023</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M023" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="151">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M023</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::76</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="152">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M008" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M008</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M008" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="153">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M008</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::77</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="154">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M015" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M015</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M015" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="155">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M015</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::78</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="156">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M006" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M006</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M006" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="157">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M006</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::79</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="158">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M014" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M014</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M014" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="159">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M014</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::80</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="160">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M003" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M003</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M003" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="161">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M003</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::81</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="162">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M002" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M002</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M002" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="163">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M002</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::82</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="164">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M004" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M004</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M004" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="165">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M004</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::83</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="166">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GLOBALSTAR M001" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GLOBALSTAR M001</TemplateName>
+                </TemplateReference>
+                <Model alias="GLOBALSTAR M001" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="167">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GLOBALSTAR M001</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::84</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="168">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+        </PlayerBuilderGroup>
+    </Contents>
+</NgtsPlayerTemplateLibrary>

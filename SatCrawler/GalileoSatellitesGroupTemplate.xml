@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NgtsPlayerTemplateLibrary>
+    <Header>
+        <Classification>UNCLASSIFIED//FOR OFFICIAL USE ONLY</Classification>
+        <Source>Python Script</Source>
+        <Title>AllGalileoSatellites</Title>
+        <SourceVersion unit="NVersion">3.2.3.0.0.0</SourceVersion>
+    </Header>
+    <Contents>
+        <PlayerBuilderGroup GroupName="AllGalileoSatellites">
+            <Info>
+                <MenuCategories unit="std::vector&lt;std::string>">[1]{Space|Groups}</MenuCategories>
+                <MenuDisplayName unit="std::string">AllGalileoSatellites</MenuDisplayName>
+            </Info>
+            <PlayerInstance userName="GALILEO 24 (2C0)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 24 (2C0)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 24 (2C0)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="1">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 24 (2C0)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::1</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="2">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 23 (2C9)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 23 (2C9)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 23 (2C9)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="3">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 23 (2C9)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::2</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="4">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 26 (2C2)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 26 (2C2)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 26 (2C2)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="5">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 26 (2C2)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::3</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="6">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 25 (2C1)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 25 (2C1)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 25 (2C1)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="7">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 25 (2C1)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::4</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="8">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 22 (2C8)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 22 (2C8)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 22 (2C8)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="9">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 22 (2C8)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::5</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="10">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 21 (2C7)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 21 (2C7)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 21 (2C7)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="11">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 21 (2C7)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::6</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="12">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 20 (2C6)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 20 (2C6)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 20 (2C6)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="13">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 20 (2C6)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::7</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="14">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 19 (2C5)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 19 (2C5)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 19 (2C5)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="15">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 19 (2C5)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::8</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="16">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 18 (26E)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 18 (26E)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 18 (26E)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="17">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 18 (26E)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::9</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="18">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 17 (26D)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 17 (26D)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 17 (26D)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="19">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 17 (26D)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::10</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="20">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 16 (26C)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 16 (26C)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 16 (26C)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="21">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 16 (26C)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::11</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="22">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 15 (267)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 15 (267)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 15 (267)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="23">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 15 (267)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::12</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="24">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 13 (26A)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 13 (26A)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 13 (26A)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="25">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 13 (26A)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::13</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="26">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 14 (26B)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 14 (26B)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 14 (26B)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="27">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 14 (26B)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::14</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="28">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 11 (268)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 11 (268)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 11 (268)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="29">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 11 (268)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::15</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="30">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 12 (269)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 12 (269)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 12 (269)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="31">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 12 (269)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::16</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="32">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 10 (206)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 10 (206)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 10 (206)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="33">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 10 (206)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::17</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="34">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 9 (205)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 9 (205)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 9 (205)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="35">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 9 (205)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::18</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="36">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GSAT0204" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GSAT0204</TemplateName>
+                </TemplateReference>
+                <Model alias="GSAT0204" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="37">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GSAT0204</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::19</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="38">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GSAT0203" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GSAT0203</TemplateName>
+                </TemplateReference>
+                <Model alias="GSAT0203" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="39">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GSAT0203</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::20</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="40">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 6 (262)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 6 (262)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 6 (262)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="41">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 6 (262)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::21</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="42">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO 5 (261)" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO 5 (261)</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO 5 (261)" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="43">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO 5 (261)</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::22</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="44">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO-FM4" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO-FM4</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO-FM4" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="45">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO-FM4</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::23</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="46">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO-FM3" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO-FM3</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO-FM3" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="47">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO-FM3</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::24</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="48">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO-FM2" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO-FM2</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO-FM2" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="49">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO-FM2</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::25</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="50">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+            <PlayerInstance userName="GALILEO-PFM" nodeCount="2">
+                <TemplateReference>
+                    <TemplateFilePath></TemplateFilePath>
+                    <TemplateName>GALILEO-PFM</TemplateName>
+                </TemplateReference>
+                <Model alias="GALILEO-PFM" dllNamespace="StdPlugins" className="NgtsEntity" classVersion="0.0.2">
+                    <Descriptor tag="Category">StdPlugins</Descriptor>
+                    <Descriptor tag="Component">/UNCLASSIFIED/PlayerComponents/StdPlugins/NgtsEntity/NgtsEntity.xml</Descriptor>
+                    <Descriptor tag="SubCategory">NgtsEntity</Descriptor>
+                    <Interface className="NGTS::PEntity" fileId="51">
+                        <PropertyList>                            <AppearanceBits unit="NGTS::Entity::AppearanceBits">Bit22</AppearanceBits>
+                            <Marking unit="std::string">GALILEO-PFM</Marking>
+                            <ReferEntityId unit="NGTS::Entity::NReferEntityId">::26</ReferEntityId>
+                        </PropertyList>
+                    </Interface>
+                    <Model alias="SatelliteMotionModel" dllNamespace="StdMotionPlugins" className="SatelliteMotionModel" classVersion="3.2.2">
+                        <Interface className="NGTS::PKinetic" fileId="52">
+                            <PropertyList>
+                                <Geodetic unit="Earthlib::Geodetic">0,0,0</Geodetic>
+                                <Heading unit="Mathlib::Radian">0</Heading>
+                                <Pitch unit="Mathlib::Radian">0</Pitch>
+                                <Roll unit="Mathlib::Radian">0</Roll>
+                                <Speed unit="Mathlib::MeterPerSecond">0</Speed>
+                            </PropertyList>
+                        </Interface>
+                    </Model>
+                </Model>
+            </PlayerInstance>
+        </PlayerBuilderGroup>
+    </Contents>
+</NgtsPlayerTemplateLibrary>
