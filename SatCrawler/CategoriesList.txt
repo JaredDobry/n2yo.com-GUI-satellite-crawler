@@ -1,7 +1,0 @@
-CategoryName=Iridium URL=https://www.n2yo.com/satellites/?c=15
-CategoryName=Military URL=https://www.n2yo.com/satellites/?c=30
-CategoryName=Galileo URL=https://www.n2yo.com/satellites/?c=22
-CategoryName=GPS URL=https://www.n2yo.com/satellites/?c=20
-CategoryName=Globalstar URL=https://www.n2yo.com/satellites/?c=17
-CategoryName=Weather URL=https://www.n2yo.com/satellites/?c=3
-CategoryName=Geostationary URL=https://www.n2yo.com/satellites/?c=10

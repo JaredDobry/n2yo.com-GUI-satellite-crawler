@@ -1,6 +1,0 @@
-GalileoSatellites.txt
-GlobalstarSatellites.txt
-GPSSatellites.txt
-IridiumSatellites.txt
-MilitarySatellites.txt
-WeatherSatellites.txt
