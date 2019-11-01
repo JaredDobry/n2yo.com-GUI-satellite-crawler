@@ -170,10 +170,13 @@ class ThreadManager(threading.Thread):
     def run(self):
         threads = []
         #Loop over every category
-        for category in self.e:
+        for pair in self.e:
             #Loop over every satellite in the category
-            for satellite in category[1]:
-                threads.append(WorkerThread(self.q, [self.a, category[0], satellite]))
+            if isinstance(pair[1], str):
+                threads.append(WorkerThread(self.q, [self.a, pair[0], pair[1]]))
+            else:
+                for sat in pair[1]:
+                    threads.append(WorkerThread(self.q, [self.a, pair[0], sat]))
         
         #Start all threads
         for t in threads:
@@ -188,8 +191,16 @@ class ThreadManager(threading.Thread):
 class App(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
+        self.data = {
+            "url" : "",
+            "apikey" : "",
+            "scrapeTable" : [],
+            "writeTable" : []
+            }
+        self.data["apikey"] = "NONE"
+        #apikey = "GYGBEH-KN73X7-HDZEPD-47ZP"
         self._frame = None
-        self.switchFrame(ShowOutput)
+        self.switchFrame(SatelliteDisplay)
         
     def switchFrame(self, frameClass):
         newFrame = frameClass(self)
@@ -198,52 +209,96 @@ class App(tk.Tk):
         self._frame = newFrame
         self._frame.pack()
         self._frame.run()
-        
-class ShowOutput(tk.Frame):
-    def __init__(self, master):  
-        tk.Frame.__init__(self, master)
 
-        #Set up UI elements
-        self.scroll = tk.Scrollbar(self)
-        self.scroll.pack(side="right", fill="y")
-        self.text = tk.Text(self, yscrollcommand=self.scroll.set)
-        self.text.pack(side="left", fill="both")
-        self.text.config(state="disabled")
-        self.scroll.config(command=self.text.yview)
-    
+def UpdateText(frame, text):
+    frame.text.config(state="normal")
+    frame.text.insert("end", text + "\n")
+    frame.text.config(state="disabled")
+    frame.text.yview_moveto(1.0)
+
+def SetupDisplay(frame):
+    frame.text = tk.Text(frame)
+    frame.text.pack(side="top", fill="both")
+    frame.text.config(state="disabled")
+
+def SetupDisplayWithScroll(frame):
+    frame.scroll = tk.Scrollbar(frame)
+    frame.scroll.pack(side="right", fill="y")
+    frame.text = tk.Text(frame, yscrollcommand=frame.scroll.set)
+    frame.text.pack(side="left", fill="both")
+    frame.text.config(state="disabled")
+    frame.scroll.config(command=frame.text.yview)
+
+def StartThreadManager(frame):
+    frame.q = queue.Queue() 
+    #start scraper thread
+    frame.threadmanager = ThreadManager(frame.q, frame.master.data["scrapeTable"], frame.master.data["apikey"])
+    frame.threadmanager.start()   
+    #update gui
+    frame.after(16, frame.updater()) #roughly 60 fps   
+        
+class SatelliteDisplay(tk.Frame):
+    def __init__(self, master):
+        tk.Frame.__init__(self,master)
+
+        #set up UI
+        SetupDisplay(self)
+
     def run(self):
-        apikey = "NONE"
-        #apikey = "GYGBEH-KN73X7-HDZEPD-47ZP"
-        #Gather our starting info
-        catlist = []
-        catlist.append(["GlobalStar", scrapeCategory("https://www.n2yo.com/satellites/?c=17")])
-        catlist.append(["Iridium", scrapeCategory("https://www.n2yo.com/satellites/?c=15")])
-        
-        self.q = queue.Queue() 
-        #start scraper thread
-        self.threadmanager = ThreadManager(self.q, catlist, apikey)
-        self.threadmanager.start()   
-        #update gui
-        self.after(16, self.updater()) #roughly 60 fps   
-        
+        self.master.data["url"] = "https://www.n2yo.com/satellite/?s=44550"
+        self.master.data["scrapeTable"].append(["NONE", self.master.data["url"]])
+        StartThreadManager(self)
+
     def updater(self):
         try:
             item = self.q.get(False)
             if item is not None:
-                self.updateText("Status: " + item[1][3])
+                UpdateText(self, "Satellite name: " + item[1][0] + "\nTLE:\n" + item[1][1] + "\n" + item[1][2] + "\n")
             self.after(16, self.updater)
         except queue.Empty:
             if self.threadmanager.is_alive():
                 self.after(16, self.updater)
             else:
-                self.updateText("Complete")
+                UpdateText(self, "Complete")
                 return
+
+class SatelliteListDisplay(tk.Frame):
+    def __init__(self, master):
+        tk.Frame.__init__(self,master)
+
+class CategoryDisplay(tk.Frame):
+    def __init__(self, master):
+        tk.Frame.__init__(self,master)
+
+        
+class CategoryListDisplay(tk.Frame):
+    def __init__(self, master):  
+        tk.Frame.__init__(self, master)
+
+        #Set up UI elements
+        SetupDiSetupDisplayWithScroll(self)
     
-    def updateText(self, text):
-        self.text.config(state="normal")
-        self.text.insert("end", text + "\n")
-        self.text.config(state="disabled")
-        self.text.yview_moveto(1.0)
+    def run(self):
+        #Gather our starting info
+        catlist = []
+        catlist.append(["GlobalStar", scrapeCategory("https://www.n2yo.com/satellites/?c=17")])
+        catlist.append(["Iridium", scrapeCategory("https://www.n2yo.com/satellites/?c=15")])
+
+        self.master.data["scrapeTable"] = catlist       
+        StartThreadManager(self)
+        
+    def updater(self):
+        try:
+            item = self.q.get(False)
+            if item is not None:
+                UpdateText(self, "Status: " + item[1][3])
+            self.after(16, self.updater)
+        except queue.Empty:
+            if self.threadmanager.is_alive():
+                self.after(16, self.updater)
+            else:
+                UpdateText(self, "Complete")
+                return
         
 app = App()
 app.mainloop()
