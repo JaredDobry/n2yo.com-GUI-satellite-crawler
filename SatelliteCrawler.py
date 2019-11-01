@@ -136,6 +136,8 @@ def scrapeSatellite(apikey, url):
             elif it == 1 or it == 2:
                 out.append(line)
                 it += 1
+        if not len(out) == 3:
+            out = ["", "", "", "Link had no data"]
         out.append("Found " + out[0])
         return out
         
@@ -303,8 +305,9 @@ def SaveReturn(frame):
         #Grab the info out of the write table
         for cat in frame.master.data["writeTable"]:
             for satData in frame.master.data["writeTable"][cat]:
-                for entry in satData:
-                    fw.write(entry + "\n")
+                if not satData[0] == "":
+                    for entry in satData:
+                        fw.write(entry + "\n")
         fw.close()
         frame.master.unbind("<Return>", frame.bindID)
         UpdateText(frame, "Write to file: " + filename +" sucessful")
@@ -338,7 +341,7 @@ def SaveListToFile(frame, isCategory, filename):
     else:
         try:
             fw = open(filename, "w")
-            for url in frame.master.data["scrapeTable"][1]:
+            for url in frame.master.data["scrapeTable"][0][1]:
                 fw.write(url + "\n")
             fw.close()
             return True
