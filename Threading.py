@@ -209,7 +209,7 @@ class App(tk.Tk):
             "writeTable" : {}
             }
         self.data["apikey"] = "NONE"
-        #apikey = "GYGBEH-KN73X7-HDZEPD-47ZP"
+        self.title("Satellite Crawler")
         self._frame = None
         self.switchFrame(MainMenuDisplay)
     
