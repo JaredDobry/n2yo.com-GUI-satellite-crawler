@@ -1,2 +1,0 @@
-CategoryName=Globalstar URL=https://www.n2yo.com/satellites/?c=17
-CategoryName=Iridium URL=https://www.n2yo.com/satellites/?c=15
