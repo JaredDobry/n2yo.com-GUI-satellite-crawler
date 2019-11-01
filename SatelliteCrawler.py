@@ -355,7 +355,7 @@ def ReadFileList(frame, filename):
         lines = fr.readlines()
         satURLS = []
         for line in lines:
-            if "CategoryName= " in line:
+            if "CategoryName=" in line:
                 try:
                     indCatEnd = line.index(" ")
                     indURL = line.index("URL=")
@@ -363,7 +363,8 @@ def ReadFileList(frame, filename):
                     url = line[indURL + 4:]
                     if "\n" in url:
                         url = url[:-1]
-                    frame.master.data["scrapeTable"].append(category, url)
+                    mySatURLS = scrapeCategory(url)
+                    frame.master.data["scrapeTable"].append([category, mySatURLS])
                 except ValueError:
                     return false
             else:
@@ -649,11 +650,11 @@ class ListInputDisplay(tk.Frame):
         newFrame = tk.Frame(self.topFrame)
         newFrame.pack(side = "top", fill = "both", expand = "true")
         tk.Label(newFrame, text="Category:").pack(side="left", fill = "x", expand = "true")
-        newFrame.categoryText = tk.Text(newFrame, height = 1, width = 20, fill = "x", expand = "true")
-        newFrame.categoryText.pack(side = "left")
+        newFrame.categoryText = tk.Text(newFrame, height = 1, width = 20)
+        newFrame.categoryText.pack(side = "left", fill = "x", expand = "true")
         tk.Label(newFrame, text="URL:").pack(side="left", fill = "x", expand = "true")
-        newFrame.URLText = tk.Text(newFrame, height = 1, width = 40, fill = "x", expand = "true")
-        newFrame.URLText.pack(side = "left")
+        newFrame.URLText = tk.Text(newFrame, height = 1, width = 40)
+        newFrame.URLText.pack(side = "left", fill = "x", expand = "true")
         self.categoryFrames.append(newFrame)
 
     def DoneButton(self):
