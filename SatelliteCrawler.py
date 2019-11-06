@@ -396,11 +396,12 @@ def UpdaterList(frame):
     try:
         item = frame.q.get(False)
         if item is not None:
-            if item[0] not in frame.master.data["writeTable"]:
-                frame.master.data["writeTable"][item[0]] = [item[1][:-1]]
-            else:
-                frame.master.data["writeTable"][item[0]].append(item[1][:-1])
-            UpdateText(frame, "Status: " + item[1][3])
+            UpdateText(frame, item[1][3])
+            if item[1][1] is not "":
+                if item[0] not in frame.master.data["writeTable"]:
+                    frame.master.data["writeTable"][item[0]] = [item[1][:-1]]
+                else:
+                    frame.master.data["writeTable"][item[0]].append(item[1][:-1])
         frame.after(16, frame.updater)
     except queue.Empty:
         if frame.threadmanager.is_alive():
